@@ -265,5 +265,5 @@ dist_params = dict(backend='nccl')
 log_level = 'INFO'
 work_dir = '/content/drive/My Drive/Mmdetection/new_chunk_cascade_mask_rcnn_hrnetv2p_w32_20e'
 load_from = None
-resume_from = '/content/drive/My Drive/Mmdetection/new_chunk_cascade_mask_rcnn_hrnetv2p_w32_20e/epoch_30.pth'
+#resume_from = '/content/drive/My Drive/Mmdetection/new_chunk_cascade_mask_rcnn_hrnetv2p_w32_20e/epoch_30.pth'
 workflow = [('train', 1)]
