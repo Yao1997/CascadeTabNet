@@ -236,8 +236,8 @@ data = dict(
         pipeline=test_pipeline),
     test=dict(
         type=dataset_type,
-        ann_file=data_root + 'VOC2007/test.json',
-        img_prefix=data_root + 'VOC2007/Test/',
+        ann_file='/content/drive/MyDrive/data_drawing/VOCdevkit/VOC2007/coco.json',
+        img_prefix='/content/drive/MyDrive/data_drawing/VOCdevkit/VOC2007/ImageSets/',
         pipeline=test_pipeline))
 # evaluation = dict(interval=1, metric=['bbox'])
 # optimizer
